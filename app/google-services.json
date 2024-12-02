@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "892811072294",
+    "project_id": "twikale-c7ee9",
+    "storage_bucket": "twikale-c7ee9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892811072294:android:97c53ff6fe0262b21467e7",
+        "android_client_info": {
+          "package_name": "com.example.twikale"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuAj6PZCxd05K1JXXu-NhF4JksDEe1Ma0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

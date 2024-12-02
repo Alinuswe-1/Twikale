@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg">
+
+
+    <TextView
+        android:id="@+id/txtCreateTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:id="@+id/txtCreateName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="100dp"/>
+
+    <EditText
+        android:id="@+id/edtCrateUserName"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="Name:"
+        android:textSize="30sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="30sp"/>
+
+
+    <TextView
+        android:id="@+id/txtCreateEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="250dp"/>
+
+    <EditText
+        android:id="@+id/edtCreateEmail"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="Email:"
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="30sp"/>
+
+
+    <TextView
+        android:id="@+id/txtCreatePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="400dp"/>
+
+    <EditText
+        android:id="@+id/edtCreatePassword"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="Password:"
+        android:textSize="30sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="30sp"/>
+
+    <Button
+        android:id="@+id/createAccountButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textSize="30sp"
+        android:background="@color/newColor"
+        android:backgroundTint="@null"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>
